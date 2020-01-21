@@ -1,0 +1,17 @@
+{
+  "name": "watsonIntegration",
+  "version": "1.0.0",
+  "main": "./services/index.js",
+  "author": "felipe_bastos",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.2.1",
+    "nodemon": "^2.0.2"
+  }
+}
